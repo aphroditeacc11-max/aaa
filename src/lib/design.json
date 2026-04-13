@@ -1,0 +1,101 @@
+{
+  "$__": {
+    "activePaths": {
+      "paths": {
+        "projectName": "init",
+        "theme.primaryColor": "init",
+        "theme.secondaryColor": "init",
+        "theme.fontFamily": "init",
+        "theme.darkMode": "init",
+        "theme.customTokens": "init",
+        "_id": "init",
+        "__v": "init",
+        "createdAt": "init",
+        "domain": "init",
+        "pages": "init",
+        "updatedAt": "init"
+      },
+      "states": {
+        "require": {},
+        "default": {},
+        "init": {
+          "_id": true,
+          "projectName": true,
+          "__v": true,
+          "createdAt": true,
+          "domain": true,
+          "pages": true,
+          "theme.primaryColor": true,
+          "theme.secondaryColor": true,
+          "theme.fontFamily": true,
+          "theme.darkMode": true,
+          "theme.customTokens": true,
+          "updatedAt": true
+        }
+      }
+    },
+    "skipId": true,
+    "getters": {
+      "theme": {
+        "primaryColor": "#2563eb",
+        "secondaryColor": "#0f172a",
+        "fontFamily": "Inter",
+        "darkMode": false,
+        "customTokens": {
+          "heroBackground": "linear-gradient(135deg,#0f172a,#1e3a8a)",
+          "buttonRadius": "14px",
+          "cardShadow": "0 20px 45px rgba(2,6,23,0.18)"
+        }
+      }
+    },
+    "nestedPath": "theme"
+  },
+  "$isNew": false,
+  "_doc": {
+    "theme": {
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#0f172a",
+      "fontFamily": "Inter",
+      "darkMode": false,
+      "customTokens": {
+        "heroBackground": "linear-gradient(135deg,#0f172a,#1e3a8a)",
+        "buttonRadius": "14px",
+        "cardShadow": "0 20px 45px rgba(2,6,23,0.18)"
+      }
+    },
+    "_id": "69dcfcd92287314695ad0715",
+    "projectName": "aaa",
+    "__v": 0,
+    "createdAt": "2026-04-13T14:25:29.732Z",
+    "domain": "aaa.localhost",
+    "pages": [
+      {
+        "route": "/",
+        "title": "Home",
+        "description": "Landing and conversion",
+        "_id": "69dcfcd9d2cbd72c92421e4e"
+      }
+    ],
+    "updatedAt": "2026-04-13T14:25:29.727Z"
+  },
+  "projectName": "aaa",
+  "theme": {
+    "primaryColor": "#2563eb",
+    "secondaryColor": "#0f172a",
+    "fontFamily": "Inter",
+    "darkMode": false,
+    "customTokens": {
+      "heroBackground": "linear-gradient(135deg,#0f172a,#1e3a8a)",
+      "buttonRadius": "14px",
+      "cardShadow": "0 20px 45px rgba(2,6,23,0.18)"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Home",
+      "description": "Landing and conversion",
+      "_id": "69dcfcd9d2cbd72c92421e4e"
+    }
+  ]
+}
